@@ -1,0 +1,26 @@
+.statistics {
+    text-align: center;
+}
+
+.buttons {
+    margin-bottom: 10px;
+}
+.button {
+    margin: 0px 05px;
+    padding: 8px 15px;
+    border-radius: 50px;
+    border: none;
+    color: #15202C;
+    background-color: #ebecf5;
+    transition: all 0.4s ease;
+}
+.button:hover, .button:focus {
+    color: white;
+    background-color: #15202C;
+}
+
+.possession, .shots, .target, .corners {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}

@@ -1,0 +1,50 @@
+.competition-wrapper {
+    margin: 0px;
+    padding-left: 20px;
+}
+.competition {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.overview-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+
+.teams {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.team-badge {
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+}
+.team-data {
+    display: flex;
+    align-items: center;
+}
+.team-data > h3 {
+    margin: 10px 0px;
+}
+
+
+.scores {
+    display: flex;
+    align-items: center;
+}
+.full-time, .score-details {
+    padding: 10px;
+    font-size: 18px;
+}
+.full-time {
+    padding-right: 20px;
+}
+.score-details {
+    font-weight: bold;
+}
